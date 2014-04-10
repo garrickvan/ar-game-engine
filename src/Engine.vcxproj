@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AEBF07DA-80BD-4BA5-8DEE-5B8D6BEA74CC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCV2.1\include\opencv;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCV2.1\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)Include;$(ProjectDir)Include\DX;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)Engine.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)Engine.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalOptions>/NODEFAULTLIB:libcmt.lib %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)Engine.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="GameApp.cpp" />
+    <ClCompile Include="CoreEngine.cpp" />
+    <ClCompile Include="MagicSkill.cpp" />
+    <ClCompile Include="MagicSkillMgr.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="RecordSkill.cpp" />
+    <ClCompile Include="RecordSkillView.cpp" />
+    <ClCompile Include="stdAfx.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="FontBinary.cpp" />
+    <ClCompile Include="IniFile.cpp" />
+    <ClCompile Include="mathlib.cpp" />
+    <ClCompile Include="StoryDialog.cpp" />
+    <ClCompile Include="structdef.cpp" />
+    <ClCompile Include="TestPic.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="Ime.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="ActiveObj.cpp" />
+    <ClCompile Include="Info.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="MonstersMgr.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="Plant.cpp" />
+    <ClCompile Include="PlantMgr.cpp" />
+    <ClCompile Include="Role.cpp" />
+    <ClCompile Include="StaticObj.cpp" />
+    <ClCompile Include="StaticObjMgr.cpp" />
+    <ClCompile Include="AVIScene.cpp" />
+    <ClCompile Include="IScene.cpp" />
+    <ClCompile Include="OpenAirScene.cpp" />
+    <ClCompile Include="RoomScene.cpp" />
+    <ClCompile Include="SceneMgr.cpp" />
+    <ClCompile Include="SkyBox.cpp" />
+    <ClCompile Include="Terrain.cpp" />
+    <ClCompile Include="VideoView.cpp" />
+    <ClCompile Include="Water.cpp" />
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="MD2File.cpp" />
+    <ClCompile Include="MS3DFile.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="AVIPlayer.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="sound.cpp" />
+    <ClCompile Include="Message.cpp" />
+    <ClCompile Include="DrawingBoard.cpp" />
+    <ClCompile Include="BaseMagic.cpp" />
+    <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="Snow.cpp" />
+    <ClCompile Include="Animate.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="CheckBox.cpp" />
+    <ClCompile Include="Dialog.cpp" />
+    <ClCompile Include="Edit.cpp" />
+    <ClCompile Include="GUIMgr.cpp" />
+    <ClCompile Include="ListView.cpp" />
+    <ClCompile Include="MapView.cpp" />
+    <ClCompile Include="ProgressBar.cpp" />
+    <ClCompile Include="ScrollBar.cpp" />
+    <ClCompile Include="Window.cpp" />
+    <ClCompile Include="VideoCapture.cpp" />
+    <ClCompile Include="MotionAnalysis.cpp" />
+    <ClCompile Include="ARMgr.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameApp.h" />
+    <ClInclude Include="CoreEngine.h" />
+    <ClInclude Include="MagicSkill.h" />
+    <ClInclude Include="MagicSkillMgr.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="RecordSkill.h" />
+    <ClInclude Include="RecordSkillView.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdAfx.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="FontBinary.h" />
+    <ClInclude Include="general.h" />
+    <ClInclude Include="IniFile.h" />
+    <ClInclude Include="mathlib.h" />
+    <ClInclude Include="StoryDialog.h" />
+    <ClInclude Include="structdef.h" />
+    <ClInclude Include="TestPic.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="Ime.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="ActiveObj.h" />
+    <ClInclude Include="Info.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="MonstersMgr.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Plant.h" />
+    <ClInclude Include="PlantMgr.h" />
+    <ClInclude Include="Role.h" />
+    <ClInclude Include="StaticObj.h" />
+    <ClInclude Include="StaticObjMgr.h" />
+    <ClInclude Include="AVIScene.h" />
+    <ClInclude Include="IScene.h" />
+    <ClInclude Include="OpenAirScene.h" />
+    <ClInclude Include="RoomScene.h" />
+    <ClInclude Include="SceneMgr.h" />
+    <ClInclude Include="SkyBox.h" />
+    <ClInclude Include="Terrain.h" />
+    <ClInclude Include="VideoView.h" />
+    <ClInclude Include="Water.h" />
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="MD2File.h" />
+    <ClInclude Include="MS3DFile.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="AVIPlayer.h" />
+    <ClInclude Include="Music.h" />
+    <ClInclude Include="sound.h" />
+    <ClInclude Include="Message.h" />
+    <ClInclude Include="DrawingBoard.h" />
+    <ClInclude Include="BaseMagic.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="Snow.h" />
+    <ClInclude Include="Animate.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="CheckBox.h" />
+    <ClInclude Include="Dialog.h" />
+    <ClInclude Include="Edit.h" />
+    <ClInclude Include="GUIMgr.h" />
+    <ClInclude Include="ListView.h" />
+    <ClInclude Include="MapView.h" />
+    <ClInclude Include="ProgressBar.h" />
+    <ClInclude Include="ScrollBar.h" />
+    <ClInclude Include="Window.h" />
+    <ClInclude Include="VideoCapture.h" />
+    <ClInclude Include="MotionAnalysis.h" />
+    <ClInclude Include="ARMgr.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Engine.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="game.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

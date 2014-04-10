@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="基础共用模块">
+      <UniqueIdentifier>{fe868b80-117e-48f4-8208-be2463014b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="基础共用模块\源文件">
+      <UniqueIdentifier>{d0604813-f928-4024-bb98-6aedddc92a74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="基础共用模块\头文件">
+      <UniqueIdentifier>{49aa55fd-1bc8-4203-9bef-7553f2ca8a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="输入系统模块">
+      <UniqueIdentifier>{dae0bd66-5f2b-460d-b235-4dd5d973424d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="输入系统模块\源文件">
+      <UniqueIdentifier>{f728066e-e84e-4657-ac34-288680109850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="输入系统模块\头文件">
+      <UniqueIdentifier>{b63f3dd0-9794-4aa1-bfeb-1c23f4875591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对象管理模块">
+      <UniqueIdentifier>{782cf1f7-04c0-44ce-b91b-744fecb64142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对象管理模块\源文件">
+      <UniqueIdentifier>{529cd090-ffe0-4867-8b98-35dfd16ce239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对象管理模块\头文件">
+      <UniqueIdentifier>{ae5b9223-85f5-456b-90f1-8c59fbd3c928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏场景模块">
+      <UniqueIdentifier>{e2d1a725-ea10-46fd-9cf7-60d5615652ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏场景模块\源文件">
+      <UniqueIdentifier>{5154ac53-861f-4cd9-ae06-548be128b8e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏场景模块\头文件">
+      <UniqueIdentifier>{057b7536-0a7d-4e74-8ec2-fd4441cf69ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源管理模块">
+      <UniqueIdentifier>{69777838-27d2-402e-aaf0-68013de79a29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源管理模块\源文件">
+      <UniqueIdentifier>{f4d909e1-7662-427b-b80a-c943ddb5b9eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源管理模块\头文件">
+      <UniqueIdentifier>{0ab3b610-57d4-4035-8eeb-2883ad3932ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源管理模块\资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="音频管理模块">
+      <UniqueIdentifier>{3f812a3a-5c27-43cd-8381-330a9371d774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="音频管理模块\源文件">
+      <UniqueIdentifier>{f350b7e6-d8d8-438c-87f6-92afe19fa205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="音频管理模块\头文件">
+      <UniqueIdentifier>{298f12d1-b1cd-4bd5-9915-b27389f85aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="消息管理模块">
+      <UniqueIdentifier>{3b4ce90e-1060-4336-a07e-213d45cccb3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="粒子特效模块">
+      <UniqueIdentifier>{f5e1298b-6192-4f0c-8e0c-177457d6bf6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="粒子特效模块\源文件">
+      <UniqueIdentifier>{6424fe89-6a58-4ec6-8522-c6f71fce7ac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="粒子特效模块\头文件">
+      <UniqueIdentifier>{05adb37a-f692-45fa-9d7c-8b3f62a05aff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI界面管理模块">
+      <UniqueIdentifier>{dd81250a-4e0a-4d50-be8f-2f39f5e11b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI界面管理模块\源文件">
+      <UniqueIdentifier>{0cd31e3d-c211-4499-96e8-a0c7f66d86ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI界面管理模块\头文件">
+      <UniqueIdentifier>{d33d8112-143b-48e1-8a67-82326224500f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AR交互模块">
+      <UniqueIdentifier>{65d7bd11-5b3b-4cac-ad1a-d69f0813a103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AR交互模块\头文件">
+      <UniqueIdentifier>{9c6b5b17-1672-4906-91da-3d691dd76cc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AR交互模块\源代码">
+      <UniqueIdentifier>{25c858a3-424f-4976-9815-63f8b6377094}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdAfx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>基础共用模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>基础共用模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FontBinary.cpp">
+      <Filter>基础共用模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IniFile.cpp">
+      <Filter>基础共用模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mathlib.cpp">
+      <Filter>基础共用模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="structdef.cpp">
+      <Filter>基础共用模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>基础共用模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ime.cpp">
+      <Filter>输入系统模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>输入系统模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ActiveObj.cpp">
+      <Filter>对象管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Info.cpp">
+      <Filter>对象管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>对象管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MonstersMgr.cpp">
+      <Filter>对象管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>对象管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Plant.cpp">
+      <Filter>对象管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlantMgr.cpp">
+      <Filter>对象管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Role.cpp">
+      <Filter>对象管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticObj.cpp">
+      <Filter>对象管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticObjMgr.cpp">
+      <Filter>对象管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AVIScene.cpp">
+      <Filter>游戏场景模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IScene.cpp">
+      <Filter>游戏场景模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenAirScene.cpp">
+      <Filter>游戏场景模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomScene.cpp">
+      <Filter>游戏场景模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>游戏场景模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>游戏场景模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>游戏场景模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Water.cpp">
+      <Filter>游戏场景模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>资源管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MD2File.cpp">
+      <Filter>资源管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MS3DFile.cpp">
+      <Filter>资源管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>资源管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AVIPlayer.cpp">
+      <Filter>音频管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Music.cpp">
+      <Filter>音频管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>音频管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>消息管理模块</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>粒子特效模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Snow.cpp">
+      <Filter>粒子特效模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Animate.cpp">
+      <Filter>GUI界面管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>GUI界面管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckBox.cpp">
+      <Filter>GUI界面管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog.cpp">
+      <Filter>GUI界面管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Edit.cpp">
+      <Filter>GUI界面管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIMgr.cpp">
+      <Filter>GUI界面管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ListView.cpp">
+      <Filter>GUI界面管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MapView.cpp">
+      <Filter>GUI界面管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar.cpp">
+      <Filter>GUI界面管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollBar.cpp">
+      <Filter>GUI界面管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>GUI界面管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionAnalysis.cpp">
+      <Filter>AR交互模块\源代码</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreEngine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoCapture.cpp">
+      <Filter>AR交互模块\源代码</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMgr.cpp">
+      <Filter>AR交互模块\源代码</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoView.cpp">
+      <Filter>GUI界面管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseMagic.cpp">
+      <Filter>粒子特效模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingBoard.cpp">
+      <Filter>粒子特效模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicSkill.cpp">
+      <Filter>粒子特效模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicSkillMgr.cpp">
+      <Filter>粒子特效模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordSkillView.cpp">
+      <Filter>GUI界面管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryDialog.cpp">
+      <Filter>GUI界面管理模块\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TestPic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordSkill.cpp">
+      <Filter>粒子特效模块\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdAfx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>基础共用模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>基础共用模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FontBinary.h">
+      <Filter>基础共用模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="general.h">
+      <Filter>基础共用模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IniFile.h">
+      <Filter>基础共用模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mathlib.h">
+      <Filter>基础共用模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="structdef.h">
+      <Filter>基础共用模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>基础共用模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ime.h">
+      <Filter>输入系统模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>输入系统模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ActiveObj.h">
+      <Filter>对象管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Info.h">
+      <Filter>对象管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>对象管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MonstersMgr.h">
+      <Filter>对象管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>对象管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Plant.h">
+      <Filter>对象管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlantMgr.h">
+      <Filter>对象管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Role.h">
+      <Filter>对象管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObj.h">
+      <Filter>对象管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObjMgr.h">
+      <Filter>对象管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AVIScene.h">
+      <Filter>游戏场景模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>游戏场景模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenAirScene.h">
+      <Filter>游戏场景模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomScene.h">
+      <Filter>游戏场景模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>游戏场景模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>游戏场景模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>游戏场景模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Water.h">
+      <Filter>游戏场景模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>资源管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MD2File.h">
+      <Filter>资源管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MS3DFile.h">
+      <Filter>资源管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>资源管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AVIPlayer.h">
+      <Filter>音频管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Music.h">
+      <Filter>音频管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>音频管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>消息管理模块</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>粒子特效模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Snow.h">
+      <Filter>粒子特效模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Animate.h">
+      <Filter>GUI界面管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>GUI界面管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckBox.h">
+      <Filter>GUI界面管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog.h">
+      <Filter>GUI界面管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Edit.h">
+      <Filter>GUI界面管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIMgr.h">
+      <Filter>GUI界面管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ListView.h">
+      <Filter>GUI界面管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MapView.h">
+      <Filter>GUI界面管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar.h">
+      <Filter>GUI界面管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollBar.h">
+      <Filter>GUI界面管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>GUI界面管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionAnalysis.h">
+      <Filter>AR交互模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreEngine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoCapture.h">
+      <Filter>AR交互模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMgr.h">
+      <Filter>AR交互模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoView.h">
+      <Filter>GUI界面管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMagic.h">
+      <Filter>粒子特效模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingBoard.h">
+      <Filter>粒子特效模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicSkill.h">
+      <Filter>粒子特效模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicSkillMgr.h">
+      <Filter>粒子特效模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordSkillView.h">
+      <Filter>GUI界面管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryDialog.h">
+      <Filter>GUI界面管理模块\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TestPic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordSkill.h">
+      <Filter>粒子特效模块\头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Engine.rc">
+      <Filter>资源管理模块\资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="game.ico">
+      <Filter>资源管理模块\资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
